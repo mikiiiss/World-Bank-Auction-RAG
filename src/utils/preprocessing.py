@@ -53,7 +53,7 @@ def preprocess_pdf(pdf_path):
     return text
 
 # Example usage
-pdf_path = "../data/world Bank .pdf"  # Replace with the path to your PDF
+pdf_path = "../data/raw/world Bank .pdf"  # Replace with the path to your PDF
 cleaned_text = preprocess_pdf(pdf_path)
 
 # Save the cleaned text to a file (optional)
