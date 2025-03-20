@@ -25,6 +25,7 @@ if __name__ == "__main__":
     with open("../../data/processed/cleaned_text.txt", "r", encoding="utf-8") as file:
         cleaned_text = file.read()
     
+    
     # Generate chunks
     chunks = fixed_size_chunking(cleaned_text, chunk_size=256, overlap=50)
     
